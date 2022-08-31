@@ -1,0 +1,12 @@
+{
+  "rust-analyzer.checkOnSave.overrideCommand": [
+    "cargo",
+    "+nightly",
+    "clippy",
+    "--all-features",
+    "--message-format=json"
+  ],
+  "rust-analyzer.rustfmt.extraArgs": [
+    "+nightly"
+  ],
+}
